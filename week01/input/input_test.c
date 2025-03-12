@@ -57,8 +57,8 @@ int main() {
     scanf("%lf", &yd_data);
     scanf("%lf", &in_data);
 
-    printf("%fyd = %.1fcm\n", yd_data, yd * yd_data);
-    printf("%fin = %.1fcm\n", in_data, in * in_data);
+    printf("%.1fyd = %.1fcm\n", yd_data, yd * yd_data);
+    printf("%.1fin = %.1fcm\n", in_data, in * in_data);
 
     return 0;
 }
