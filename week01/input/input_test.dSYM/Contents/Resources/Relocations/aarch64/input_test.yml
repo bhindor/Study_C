@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/minseong/Documents/GitHub/Study_C/week01/input/input_test'
+relocations:     []
+...

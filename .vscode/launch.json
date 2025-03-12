@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug C",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${fileDirname}/${fileBasenameNoExtension}",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${fileDirname}",
+        "environment": [],
+        "externalConsole": true,
+        "MIMode": "lldb",
+        "setupCommands": [
+          {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ],
+        "miDebuggerPath": "/usr/bin/lldb",
+        "preLaunchTask": "build and run C",
+        "serverReadyAction": {
+          "action": "openExternally",
+          "pattern": "\\b(opened\\s*port\\s*(\\d+))\\b"
+        },
+        "internalConsoleOptions": "openOnSessionStart"
+      }
+    ]
+  }
+  
