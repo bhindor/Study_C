@@ -85,6 +85,14 @@
 int main() {
     float grade[6] = {85.6, 79.5, 83.1, 80.1, 78.2, 75.0};
 
+    int n1, n2;
+
+    scanf("%d %d", &n1, &n2);
+
+    double sum = grade[n1 - 1] + grade[n2 - 1];
+
+    printf("%.1f", sum);
+
     return 0;
 }
 
