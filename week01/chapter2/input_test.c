@@ -31,15 +31,18 @@
 
 //자가진단3
 //두 개의 정수형 변수를 선언하고 값을 대입하여 아래와 같이 출력되는 프로그램을 작성하라
-// int main() {
-//     int first_data = 55;
-//     int second_data = 2008;
+int main() {
+    int first_data = 55;
+    int second_data = 10;
 
-//     printf("%d - %d = %d\n", first_data, 10, first_data-10);
-//     printf("%d - %d = %d\n", second_data, 1999, second_data-1999);
+    printf("%d - %d = %d\n", first_data, second_data, first_data-second_data);
 
-//     return 0;
-// }
+    first_data = 2008;
+    second_data = 1999;
+    printf("%d - %d = %d\n", first_data, second_data, first_data-second_data);
+
+    return 0;
+}
 
 // --------------------------------------------------------------------------------------------------------------------------------------------- //
 
